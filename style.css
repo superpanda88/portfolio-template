@@ -1,0 +1,10 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project {
+  border: 2px solid black;
+  padding: 2em;
+  text-align: center;
+}
