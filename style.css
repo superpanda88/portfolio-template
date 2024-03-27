@@ -1,3 +1,8 @@
+* {
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+}
+
 main {
   display: flex;
   flex-direction: row;
@@ -11,16 +16,13 @@ header {
 }
 
 .project {
+  display: flex;
   border: 2px solid black;
   padding: 2em;
   text-align: center;
 }
 
-.project:hover {
-  border: 2px solid white;
-}
-
-p {
+.project-name {
   background: black;
   opacity: 70%;
   width: 100%;
@@ -30,4 +32,15 @@ p {
   padding: 1em;
   color: white;
   margin-bottom: 0;
+}
+
+.project-name:hover {
+  background: white;
+  opacity: 70%;
+  color: black;
+}
+
+a {
+  margin: 1em;
+  padding: 1em;
 }
