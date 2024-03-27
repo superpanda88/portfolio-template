@@ -1,10 +1,33 @@
 main {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+header {
+  text-align: center;
 }
 
 .project {
   border: 2px solid black;
   padding: 2em;
   text-align: center;
+}
+
+.project:hover {
+  border: 2px solid white;
+}
+
+p {
+  background: black;
+  opacity: 70%;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid black;
+  margin: auto;
+  padding: 1em;
+  color: white;
+  margin-bottom: 0;
 }
